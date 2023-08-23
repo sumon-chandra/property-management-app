@@ -1,0 +1,94 @@
+[
+  {
+    "id": 1,
+    "address": "123 Main Street, Anytown, CA 12345",
+    "type": "House",
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "square_feet": 1200,
+    "rent": 2000,
+    "tenants": [
+      {
+        "id": 1,
+        "name": "John Doe",
+        "email": "johndoe@gmail.com",
+        "phone_number": "123-456-7890",
+        "start_date": "2023-01-01",
+        "end_date": null
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "address": "456 Elm Street, Anytown, CA 12345",
+    "type": "Apartment",
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "square_feet": 800,
+    "rent": 1500,
+    "tenants": [
+      {
+        "id": 2,
+        "name": "Jane Doe",
+        "email": "janedoe@gmail.com",
+        "phone_number": "456-789-0123",
+        "start_date": "2023-02-01",
+        "end_date": "2023-06-30"
+      },
+      {
+        "id": 3,
+        "name": "Mike Smith",
+        "email": "mikesmith@gmail.com",
+        "phone_number": "789-012-3456",
+        "start_date": "2023-07-01",
+        "end_date": null
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "address": "789 Oak Street, Anytown, CA 12345",
+    "type": "Townhouse",
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "square_feet": 1500,
+    "rent": 2500,
+    "tenants": [
+      {
+        "id": 4,
+        "name": "Susan Jones",
+        "email": "susanjones@gmail.com",
+        "phone_number": "987-654-3210",
+        "start_date": "2023-03-01",
+        "end_date": null
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "address": "1011 Pine Street, Anytown, CA 12345",
+    "type": "Duplex",
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "square_feet": 1000,
+    "rent": 1800,
+    "tenants": [
+      {
+        "id": 5,
+        "name": "Mary Smith",
+        "email": "marysmith@gmail.com",
+        "phone_number": "555-444-3333",
+        "start_date": "2023-04-01",
+        "end_date": null
+      },
+      {
+        "id": 6,
+        "name": "Peter Jones",
+        "email": "peterjones@gmail.com",
+        "phone_number": "666-777-8888",
+        "start_date": "2023-05-01",
+        "end_date": null
+      }
+    ]
+  }
+]
