@@ -17,11 +17,16 @@ export interface Tenant {
   start_date: string;
   end_date?: (null | string)[];
 }
-export interface RootState {
-  property: PropertyTypes[];
-}
 
 export type InitialPropertyTypes = {
   properties: PropertyTypes[];
   status: "loading" | "success" | "failed" | "idle";
 };
+export type InitialTenantTypes = {
+  tenants: Tenant[];
+};
+
+export interface RootState {
+  properties: InitialPropertyTypes;
+  tenants: InitialTenantTypes;
+}
